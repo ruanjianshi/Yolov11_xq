@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="eQfSiCHQ6qnjf08oUlG6" name="第 1 页">
+        <mxGraphModel dx="1002" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="290" as="sourcePoint"/>
+                        <mxPoint x="720" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Target" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="startFuel" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="station.position1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="station.position2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="station.position3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="station.fuel1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="station.fuel2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="station.fuel3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="310" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="车" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="580" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="startFuel&amp;gt;station.position1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="550" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="startFuel&amp;lt;station.position1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="690" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="return -1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="665" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="650" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="520" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="加" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="500" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="不加" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="600" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="480" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="(startFuel-station.position1+station.fuel1) &amp;gt;(station.position2 - station.position1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="430" width="250" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
